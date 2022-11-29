@@ -7,7 +7,7 @@
     width:  25%;    
 }
 .bio-wrapper {
-   background-color: #c8e8c3;
+   background-color: #c0e0c3;
     font-size: 24px;
     height: 300px;
     overflow: scroll;
@@ -15,9 +15,18 @@
 }
 .bio-wrapper:after {
     visibility: hidden;
-   /* display: block;*/
+    display: block;
     font-size: 0;
-   /* content: " "; */
+    content: " "; 
     clear: both;
     height: 0;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+
+}
+.social-list > li {
+    display: inline-block;
 }
