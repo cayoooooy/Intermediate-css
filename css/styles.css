@@ -1,14 +1,11 @@
 
 .full-hero {
-   height: 350px;
+   height: 43vh;
    width: 1350px;
     background-color: lightblue;
-    
 
 }
-.social-list {
-    text-align: center;
-}
+
 .bio-box {
     border: 1px solid black;
     float: left;
@@ -49,8 +46,22 @@ box-sizing: border-box;
 .social-list {
     list-style: none;
     padding: 0;
+    text-align: center;
 
 }
 .social-list > li {
     display: inline-block;
+    background: pink;
+    min-width: 3.5em;
+    min-height: 3.5em;
+    border-radius: 100%;
+    padding: 1.5% 0 0 0;
+    box-sizing: border-box;
+    font-size: 1.5 em;
+    line-height: 1;
+}
+
+.social-list a {
+    text-decoration: none;
+    
 }
