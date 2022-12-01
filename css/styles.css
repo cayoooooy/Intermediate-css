@@ -1,9 +1,19 @@
 
+.full-hero {
+   height: 350px;
+   width: 1350px;
+    background-color: lightblue;
+    
+
+}
+.social-list {
+    text-align: center;
+}
 .bio-box {
     border: 1px solid black;
     float: left;
     font-size: 1rem;
-    padding: 0 2%;
+    padding: 0 2% 2%;
     width:  21%;    
     box-sizing: border-box;
     margin: 40px 1% 0;
